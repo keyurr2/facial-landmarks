@@ -31,12 +31,15 @@ Now you need to download models from below url and put in project directory
 4. https://github.com/keyurr2/face-detection/blob/master/mmod_human_face_detector.dat
 
 To find facial landmarks in realtime with different methods
+
     $ python facial_landmarks_realtime.py -l hog
     $ python facial_landmarks_realtime.py -l cnn
     $ python facial_landmarks_realtime.py -l dl
 
 To find for the same in image just give image path like 
+
     $ python facial_landmarks.py -l hog -i <image-path>
+    
 (Please change HOME in script)
 
 ### Screenshot
